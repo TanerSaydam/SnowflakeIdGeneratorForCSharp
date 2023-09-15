@@ -11,12 +11,12 @@ This library provides a simple and thread-safe Snowflake ID generator for C#. Sn
 ## Installation
 You can download the package from NuGet:
 ```mathematica
-Install-package ShowflakeIdGenerator
+Install-package SnowflakeIdGeneratorForCsharp
 ```
 
 Or add it directly to your project file:
 ```mathematica
-<PackageReference Include="SnowflakeIdGenerator" Version="x.x.x" />
+<PackageReference Include="SnowflakeIdGeneratorForCsharp" Version="x.x.x" />
 ```
 
 ## Usage
