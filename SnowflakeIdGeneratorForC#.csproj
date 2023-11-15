@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>SnowflakeIdGeneratorForC_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -11,15 +11,15 @@
     <Authors>Taner Saydam</Authors>
     <Company>Taner Saydam</Company>
     <Description>A highly efficient, thread-safe Snowflake ID generator written in C#. This library helps you generate unique, distributed, time-sortable identifiers on multiple servers and data centers. Perfect for distributed applications.</Description>
-    <PackageIcon>logo.png</PackageIcon>
+    <PackageIcon>icon.jpeg</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Snowflake ID, Identifier, C#, Distributed Systems, Thread-Safe</PackageTags>
     <RepositoryUrl>https://github.com/TanerSaydam/SnowflakeIdGeneratorForCSharp</RepositoryUrl>
-    <Version>7.0.0</Version>
+    <Version>8.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\logo.png">
+    <None Include="..\icon.jpeg">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
